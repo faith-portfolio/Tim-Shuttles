@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tim Shuttle</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/cufon-replace.js" type="text/javascript"></script>
+<script src="js/Dynalight_400.font.js" type="text/javascript"></script>
+<script src="js/FF-cash.js" type="text/javascript"></script>
+<script src="js/tms-0.3.js" type="text/javascript"></script>
+<script src="js/tms_presets.js" type="text/javascript"></script>
+<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="js/jquery.equalheights.js" type="text/javascript"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+<body id="page1">
+<!--==============================header=================================-->
+<header>
+  <div class="row-top">
+    <div class="mainie">
+    <a href="http://www.facebook.com"><img src="images/facebook.png" title="Like our Facebook Page"></a>
+        <a href="http://wwww.twitter.com"><img src="images/Twitter.png" title="Follow us @ Timshuttle"></a>
+          <a href="http://www.linkedin.com"><img src="images/linkedin.png" title="Connect with us @ Tim Shuttles "></a>
+          <a href="http://wwww.gmail.co.za"><img src="images/google.png" title="Chat with us"></a>
+           &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp 
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+          <script language="JavaScript1.2">
+
+/*
+Neon Lights Text
+By JavaScript Kit (http://javascriptkit.com)
+Over 400+ free scripts here!
+*/
+
+var message="About-Us "
+var neonbasecolor="#DFF7DF"
+var neontextcolor="#A8EAA8"
+var flashspeed=100  //in milliseconds
+
+
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1500)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script>
+          
+          
+          
+          
+      <div class="wrapperer"><img src="images/place.png">
+      
+     
+        <h1><a href="index.html"></a></h1>
+      
+      
+        <nav>  
+     
+          <ul class="menu">
+           
+
+           <li><a class="active" href="index.html">            
+           
+           <script type="text/javascript">
+				 var d=new Date(); var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday"); var monthname=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"); document.write(weekday[d.getDay()] + " "); document.write(d.getDate() + ". "); document.write(monthname[d.getMonth()] + " "); document.write(d.getFullYear());</script>  
+           
+           
+             &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+           </a></li>
+              <li><a href="index.html" title="Home Page">HOME</li></a>
+            <li><a class="active" href="about.html" title="About-Us">ABOUT-US</a></li>
+            <li><a href="rates.html" title="Rates">RATES </a></li>
+           <li><a href="tour.html" title="Tours">TOURS</a></li>
+            <li><a href="accommodation.html" title="Accommodation">ACCOMMODATION </a></li>
+            <li><a href="contact.html" title="Contact-Us">CONTACT-US</a></li>
+          
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="row-bot">
+    <div class="row-bot-bg">
+      <div class="maini">
+      <img src="images/timlogo.png"> <img src="images/phones1.png">
+   
+       
+        <div class="slider-wrapper">
+         <img src="images/pic89.png" alt="" />
+          <div class="slider">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!--==============================content================================-->
+<section id="content">
+  <div class="main">
+    <div class="wrapper img-indent-bot">
+      <article class="col-1"> <a href="#"></a> </article>
+    </div>
+    <div class="wrapper">
+      <article class="column-1">
+        <div class="indent-left">
+      
+          <div class="maxheight indent-bot">
+           
+          <h3> Our Fleet</h3>
+         <img src="images/car21.png">
+      
+      
+          
+          </div>
+          </div>
+      </article>
+      <article class="column-2">
+        <div class="maxheight indent-bot">
+          <h3 class="p1">About Us</h3>
+          <h6 class="p2"></h6>
+          <p class="p2">Tim Shuttles is a Proudly South Africa based Shuttle company which was born from our taxi business, In 2009 It became official.
+We are diverse and currently have interests in Car Rental, Shuttle, Tours, Chauffeur and Accommodation Booking services 
+
+          <br/><br/>
+         We are grateful of the opportunity given to us by HLSP.( division of Mott mc Donald
+
+It is through their trust on us that Tim Shuttle was able to grow
+
+To date we are proud, we are servicing more than five institutions.
+
+We're are looking in the five years to be one of the premier and most reliable service providers
+
+Our fleet are well looked after, we have more than 10 vehicles of different make to meet customer demands
+
+          <br/><br/>   Tim Shuttles aims to offer a professional service, which means that all our drivers have the appropriate accreditation, offering you peace of mind.
+We believe that you are the most important person in our business, so whatever your requirements are, please contact us, and we will gladly customise any package or service to meet your specific requirements.</p>
+
+<a href="index.html" class="figure"><img src="images/mercedes1.png" align="right"></a>
+ <h3>Our Services</h3>
+            <ul class="list-1">
+              <li>Chauffeur Services</li>
+              <li>Day Tours & Safaris </li>
+              <li>Executive Shuttle Services</li>
+              <li>Transfers for Seminars, Team Building and Game Lodges</li>
+              <li>Transfers to Sporting Events and Concerts</li>
+              <li> Transfers for Group Events,  Parties & Corporate             
+     Functions</li>
+              <li>Point to Point</li>
+            </ul>
+
+  
+       
+         </article>
+         
+    </div>
+  
+  
+  </div>
+  
+</section>
+
+<!--==============================footer=================================-->
+<footer>
+  <div class="main"> 
+  <div id="footer"> 
+      <ul>
+       <li><a class="active" href="index.html" title="Home Page">Home</a> | </li>
+        <li> <li><a href="about.html" title="About-Us">About-us</a> | </li>
+        <li><a href="rates.html" title="Rates">Rates</a> | </li>
+        <li><a href="tour.html" title="Tours">Tours</a> | </li>
+  <li><a href="accommodation.html" title="Accommodation">Accommodation</a> | </li>
+        <li><a href="contact.html" title="Contact-Us">Contact-us</a></li>
+      </ul>
+     
+    <div class="aligncenter"> 
+             <span>Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="#">Tim Shuttle</a> 
+			All Rights Reserved</span>  
+							This website was designed By: 
+						<a href="http://sibophics.co.za" target="_blank">Sibophics</a> </div>
+  </div>
+     
+          
+          
+          
+</footer>
+
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+$(window).load(function () {
+    $('.slider')._TMS({
+        duration: 1000,
+        easing: 'easeOutQuint',
+        preset: 'slideDown',
+        slideshow: 7000,
+        banners: false,
+        pauseOnHover: true,
+        pagination: true,
+        pagNums: false
+    });
+});
+</script>
+</body>
+</html>
